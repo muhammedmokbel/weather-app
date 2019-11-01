@@ -1,0 +1,14 @@
+
+
+.myimg
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.nav-link-mine
+{
+    color: white !important;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
