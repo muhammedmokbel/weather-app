@@ -29,9 +29,7 @@ app.use(express.static(publicpath));
 
 
 app.get('' , (req , res) => {
-    res.render('index', {
-        
-    })
+    res.render('index')
 })
 
 app.get('/about' , (req, res) => {
