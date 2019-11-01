@@ -7,6 +7,7 @@ const forecast = require("./utilis/forecast");
 
 // init our app to be able to use all functionality of express
 const app = express() ; 
+const port = process.env.PORT || 3000; 
 
 // setting paths for static or dynamic html pages
 const publicpath = path.join(__dirname , '../public'); 
@@ -100,6 +101,6 @@ app.get('*' , (req, res) => {
 })
 
 
-app.listen(3000 , () => {
+app.listen(port , () => {
     console.log('server is running !')
 })

@@ -14,7 +14,7 @@ const desc = document.getElementById("desc");
 
 
 function fetching (location) {
-   fetch("http://localhost:3000/weather?address=" + location).then((res) => {
+   fetch("/weather?address=" + location).then((res) => {
     
    res.json().then((data) => {
     if (data.error)
